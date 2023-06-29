@@ -12,5 +12,13 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    margin-right: 1rem;
+    margin: 1rem;
+    align-items: center;
 }
+
+.menu a {
+    text-decoration: none;
+    padding: 0 2rem;
+    color: black;
+}
+
