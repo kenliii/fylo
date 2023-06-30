@@ -60,6 +60,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .mright img {
@@ -69,6 +70,7 @@ body {
 
 .mleft {
     border: solid red;
+    margin-left: 20px;
 }
 
 .kyle {
@@ -76,6 +78,7 @@ body {
     background: white;
     font-size: 10px;
     padding: 10px;
+    margin-top: 20px;
     
 }
 
@@ -85,10 +88,21 @@ body {
     height: 50px;
 }
 
-.profile-text {
-    display: inline-block;
+.end {
+    border: solid;
+    background-color: hsl(238, 22%, 44%);
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+    align-items: center;
 }
 
-.profile-text p {
-    font-weight: bold;
+.endleft-text {
+    color: hsl(0, 0%, 75%);
+}
+
+.endleft-text p {
+    font-size: 12px;
+    border: solid;
+    padding: 10px;
 }
